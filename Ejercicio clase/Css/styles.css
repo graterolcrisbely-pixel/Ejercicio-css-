@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(181, 221, 253);
+}
+
+h1 {
+    text-align: center;
+    color: rgba(134, 29, 29, 0.856);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+
+}
+p{
+    font-size: 25px;
+}
+h2{
+    font-size: 23px;
+}
+.card li:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    color: #6c11c0;
+}
+
+.card li:nth-child(2),
+.card li:nth-child(3),
+.card li:nth-child(4) {
+    color: #992a2a; 
+    font-size: 20px;
+}
+.card li:last-child {
+    color: #992a2a;
+    font-size: 20px;
+}
+button{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    color: #1d4ed8;       
+    font-size: 18px;      
+    font-weight: bold;    
+    padding: 8px 12px;    
+    border: 2px solid #240b3b; 
+    border-radius: 4px;   
+}
